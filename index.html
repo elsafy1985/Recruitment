@@ -720,11 +720,11 @@
   <div id="PersonalInfo" class="modal bottom-sheet">
     <div class="modal-content">
       <h4>Personal Info</h4>
-        <form class="col s12 editfield" id="personalInfoForm">
+        <form class="col s12 editfield" id="personalInfoForm2">
         
           <div class="row">
             <div class="input-field col s12 m6 l4">
-              <input ng-model="txtfirstname" name="txtfirstname" type="text" class="validate">
+              <input type="text" class="validate">
               <label for="">First Name</label>
             </div>
             <div class="input-field col s12 m6 l4">
@@ -1073,20 +1073,7 @@
 
 
       <!-- Scripts -->
-      <script>
-	  $('input.autocomplete').autocomplete({
-    data: {
-      "Apple": null,
-      "Microsoft": null,
-      "Google": 'http://placehold.it/250x250'
-    },
-    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
-    onAutocomplete: function(val) {
-      // Callback function when value is autcompleted.
-    },
-    minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
-  });
-	  </script>
+ 
 	  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/sweetalert.min.js"></script>
